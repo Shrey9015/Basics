@@ -8,7 +8,7 @@
 #include <iostream>
 using namespace std;
 
-struct shrey
+struct CandidateInfo
 {
     string Name;
     int Age = 20;
@@ -17,9 +17,9 @@ struct shrey
 
 int main()
 {
-    shrey info;
-    shrey *infoPtr = &info;
-    infoPtr->Name = "Patel Shrey Kamleshbhai.";
+    CandidateInfo info;
+    CandidateInfo *infoPtr = &info;
+    infoPtr->Name = "Patel Shrey.";
     cout << "Name: " << (*infoPtr).Name << endl;
     cout << "Age: " << infoPtr->Age << endl;
     cout << "Salary: " << &info.Salary << endl;
