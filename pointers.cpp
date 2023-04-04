@@ -1,9 +1,10 @@
 //
 // Pointers
 //
-// & - used for the refrence.
+// & - used for the address.
 // * - used for the value.
-// -> - used to refer a member variable of a structure
+// -> - used to refer a member variable of a structure.
+//
 #include <iostream>
 using namespace std;
 
